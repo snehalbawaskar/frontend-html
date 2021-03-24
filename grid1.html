@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid-ex-2.css">
+    <title>Document</title>
+    <style>
+        .main-conatainer{
+            display:grid;
+            grid-template-rows: 100px 200px 300px;
+            grid-template-columns: 200px 400px auto;
+        }
+        .grid-items{
+            border:solid 2px red;
+        }
+        .main-container .one{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="grid-items one">One</div>        
+        <div class="grid-items ">Two"></div>        
+        <div class="grid-items">Three"></div>
+        
+        <div class="grid-items one">One</div>        
+        <div class="grid-items">Two</div>        
+        <div class="grid-items">Three</div>
+
+        <div class="grid-items">Three</div>
+    </div>
+    
+</body>
+</html>

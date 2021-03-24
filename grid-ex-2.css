@@ -1,0 +1,12 @@
+.main-container{
+    display:grid;
+    grid-template-columns:600px auto;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-container  .flex-items{
+    width:150px;
+}

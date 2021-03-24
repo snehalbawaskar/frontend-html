@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header li{
+            display:inline;
+        }
+
+        a:link{
+            color:green;
+            background-color:crimson;
+            text-decoration: none;
+        }
+        a:visited{             
+            color:darkred;
+        }
+
+        a:hover{
+            color:black;
+            font-size:xx-large;
+            background-color: gold;
+        }
+        @keyframes blink{
+            0%{opacity:1;color:black}
+            50%{opacity:0;color:red}
+            100%{opacity:1;color:green}
+        }
+        #Home{
+            animation:blink 3s ease-in infinite;
+        }
+        img:hover{
+            height:200px;
+            width:200px;
+            border-radius:50%;
+            border:red 3px solid;
+        }
+
+    </style>
+</head>
+<body>
+    <!--psedo class selectors are selectors which are used when there is sme event.-->
+    <marquee direction="left">This is my home page</marquee>
+    <header>
+        <ul>
+            <li id="home"> <a href="http://www.codekul.com">Home</a></li>
+            <li><a href="http://www.codekul.com">About</a></li>            
+            <li><a href="http://www.codekul.com">Blog</a></li>            
+            <li><a href="http://wwww.codekul.com">Contact</a></li>            
+            </ul>
+    </header>
+    <div class="one">
+    <img src="backgroundimg.html.jpg" height="300px" width="500px"alt="img1">
+    </div>
+
+</body>
+</html>

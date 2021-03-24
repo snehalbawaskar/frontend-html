@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*p::first-letter{
+            font-size: xx-large;
+            color:red;
+        }*/
+
+
+        div::first-letter{
+            color: aquamarine;
+            font-size:xx-large;
+            color: black;
+        }
+        p::first-letter{
+            color:coral;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        P::first-line{
+            color:crimson;
+        }
+        li::before{
+            content:'*' ;
+        }
+        li::after{
+            content:'*';
+            border-left: solid 2px;
+        }
+        li{
+            list-style:none;
+        }
+    </style>
+    <body>
+        <!--first line of paragraph
+        First character of paragraph
+    To add any content before an element or after an element-->
+    <div>
+        <p>
+            This is some dummy copy. you are not really supposed to readthe dummy copy, itit is just 
+             popular-news-carouselholder for people who need some type to visualize what the actual copy might look like if it were real 
+        </p>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>three</li>            
+            <li>three</li>
+
+
+        </ul>
+    </div>
+    </body>
+    
+
+</html>

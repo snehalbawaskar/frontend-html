@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* combinators- we can target any element by using the relation between tw elements*/
+        .container{
+            background-color: aqua;
+        }
+        .navigation-container{
+            color:brown;
+
+        }
+        .custom-color{
+            background-color: darkblue;
+        }
+        /* descendent selector
+        syntax: parent element space target element*/
+        .container nav ul li{
+            display: inline;
+        }
+        ul li{
+            color:green;
+        }
+        /*Syntax */
+
+        /*it will target such span element which will comes after p element*/
+        p span{
+            background-color:darkgoldenrod;
+        }
+
+        div.container nav ul > li{
+            color:maroon;
+        }
+        ul > li{
+
+            color: blueviolet;
+        }
+        /*it will target such span element which will cme after p element
+       */
+        p ~ span{
+            background-color:darkgoldenrod;
+        }
+        div > a{
+            color: crimson;
+        }
+        .card{
+
+            border:3px solid black;
+            width:300px;
+        }
+        .card{
+
+            border:3px solid black;
+            width:300px;
+        }
+        .card{
+
+            border:3px solid black;
+            width:300px;
+            display: inline-block;
+        }
+
+        
+        
+
+        </style>
+</head>
+<body>
+    <header class="custom-color">
+        <h1>Css Selector</h1>
+    </header>
+    <div class="container navigation-container custom-color"></div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>blog</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</div>
+<div>
+    <p>
+        <a href="http://wwww.codekul.com">Codekul</a>
+
+</p>
+</div>
+</body>
+<div class="navigation-container"></div>
+
+<div class="container">One</div>
+<div class="container">Two</div>
+
+<section>
+<article>
+<p>
+    It is crucial for users to accept the product or service that most meet their needs with the broad variety of products and services available on the earth.
+ In order to moderate or even defeat this difficulty recommender systems have developed. The main area where this concept is currently used is e-commerce that suggests
+  the product of interest which cooperate directly with the customers with the ambition of improving its sales.
+  Context is any information that can be used to characterize the situation of an entity. The contextual information can be obtained Explicitly, Implicitly, Inferring.
+</p>
+<span>Span Element1</span>
+
+<a href="https://www.google.com">Google</a>
+<span>Span Element2</span>
+</article>
+
+<article>
+It is crucial for users to accept the product or service that most meet their needs with the broad variety of products and services available on the earth.
+In order to moderate or even defeat this difficulty recommender systems have developed. The main area where this concept is currently used is e-commerce that suggests
+the product of interest which cooperate directly with the customers with the ambition of improving its sales.
+Context is any information that can be used to characterize the situation of an entity. 
+</article>
+</section>
+
+
+
+<div class="card">
+    <img
+    style="height: 300px; width: 300px"
+    src="backgroundimg.html.jpg"
+    alt="img1"
+    />
+    <h1>News Title</h1>
+    <p>
+        It is crucial for users to accept the product or service that most meet their needs with the broad variety of products and services available on the earth.
+        In order to moderate or even defeat this difficulty recommender systems have developed. The main area where this concept is currently used is e-commerce that suggests
+        the product of interest which cooperate directly with the customers with the ambition of improving its sales.
+        Context is any information that can be used to characterize the situation of an entity. 
+    </p>
+    <span>News tag</span>
+    </div>
+    
+    
+
+
+    <div class="card">
+        <img
+        style="height: 300px; width: 300px"
+        src="backgroundimg.html.jpg"
+        alt="img1"
+        />
+        <h1>News Title</h1>
+        <p>
+            It is crucial for users to accept the product or service that most meet their needs with the broad variety of products and services available on the earth.
+            In order to moderate or even defeat this difficulty recommender systems have developed. The main area where this concept is currently used is e-commerce that suggests
+            the product of interest which cooperate directly with the customers with the ambition of improving its sales.
+            Context is any information that can be used to characterize the situation of an entity. 
+        </p>
+        <span>News tag</span>
+        </div>
+        
+        
+        <div class="card">
+            <img
+            style="height: 300px; width: 300px"
+            src="backgroundimg.html.jpg"
+            alt="img1"
+            />
+            <h1>News Title</h1>
+        <p>
+            It is crucial for users to accept the product or service that most meet their needs with the broad variety of products and services available on the earth.
+            In order to moderate or even defeat this difficulty recommender systems have developed. The main area where this concept is currently used is e-commerce that suggests
+            the product of interest which cooperate directly with the customers with the ambition of improving its sales.
+            Context is any information that can be used to characterize the situation of an entity. 
+        </p>
+        <span>News Tag</span>
+        </div>
+       
+        <footer>Footer</footer>
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            /*grid-template-columns:300px repeat(2 2fr)150px;*/
+            grid-template-columns: 100px repeat(2,[col-start] 50px [col-end]);
+        }
+        .grid-items{
+            border:1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-items one">One</div>        
+        <div class="grid-items ">Two"></div>        
+        <div class="grid-items">Three"></div>
+    </div>
+
+    <select>
+    <option>Pune</option>
+    <option>Mumbai</option>
+    <option>Banglore</option>
+    <option>Delhi</option>
+
+    </select>
+    
+</body>
+</html>

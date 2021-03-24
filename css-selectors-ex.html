@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+
+
+<style>
+    img{
+        height: 300px;
+        width: 400px;
+    }
+    #image2{
+        height:150px;
+        width:200px;
+    }
+    #image3{
+        height:150px;
+        width:200px;
+    }
+    .magic{
+        background-color:blueviolet;
+        height:150px;
+        width:200px;
+    }
+    .style{
+        font-style: italic;
+        font-weight:600;
+        color:crimson;
+        font-size:x-large;
+    }
+    /*attribute selector syntax
+    [attribute name]
+    element name [attribute name]
+    */
+    [alt]{
+        height:500px;
+        width: 600px;
+    }
+
+    [href]{
+        color:cadetblue;
+        background-color: coral;
+        font-size:xx-large;
+    }
+    [name]{
+        color:crimson;
+        background-color:darkblue ;
+    }
+
+    p[title="para"]{
+        color:darkgoldenrod;
+        background-color: darkmagenta;
+    }
+    a[href$=".com"]{
+
+        color: darkred;
+        background-color:black;
+    }
+
+    a[href*="codekul"]{
+
+        color:chocolate;
+        background-color: darkgreen;
+    }
+
+    div[title="codekul"]{
+        font-family: cursive;
+        font-style: italic;
+        color: aqua;
+        background-color: brown;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <h1> First Css Selectors</h1>
+    </header>
+
+    <img src="backgroundimg.html.jpg" alt="image />"
+    <section>
+        <div title="gitlab" class= "magic style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.
+            <a href="https://www.codekul.com"</a>
+        </div>    
+        
+        
+        <img id="image2" src="backgroundimg.html.jpg" alt="image />"
+        
+    </section>
+    <article class="magic">
+        <p title="para"class="style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.
+            <a href="https://www.codekul.com">Click here to visit codekul</a>
+        </p>
+        <aside>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate nobis architecto corporis
+            reiciebdis veritatis.
+            <a href="https://www.google.com">Google</a>
+        </aside>
+            <img title="image" class="magic" src="backgroundimg.html.jpg">
+         
+
+    </article>
+</body>
+</html>

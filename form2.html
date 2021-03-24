@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        body{
+            background-image: 
+            url(backgroundimg.html.jpg);
+            }
+        
+            
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Employee Registration Form</legend>
+        <form autocomplete="on">
+
+        <label for="first name">First Name</label>
+        <input autocomplete="of" name="first name" type="text"><br>
+        
+        <label for="last name">last Name</label>
+        <input type="text"> <br>
+        
+        <lable for="age">Age</lable>
+        <input id="age" min="18" max="50" type="number"><br>
+        
+        <lable for="email">Email</lable>
+        <input id="email" type="email" required><br>
+
+
+        <lable for="password">Password</lable>
+        <input id="password" type="password" required><br>
+
+        <label for="phone number">Phone number</label>
+        <input type="tel> maxlength=13 pattern= "7385-6543-12 pattern="[0-9]
+    
+        <label for="designation">Designation</label>
+        <select name="" id="experience">
+            <option value="FSD">Full-Stack Developer</option>
+            <option value="FE">Frontend Engineer</option>
+            <option value="BE">Backend Engineer</option>
+            <option value="SA">Security Analyst</option>
+        </select><br>
+
+        <label for="experience">Work Experience</label>
+        <select name="experience" id="experience">
+            <option value="1-2">1-2 yr</option>
+            <option value="2-4">2-4 yr</option>
+            <option value="4-7">4-7 yr</option>
+            <option value="10+">10+ yr</option>
+        </select><br>
+
+        <label for="city">City</label>
+        <input type="text" list="city">
+        <datalist id="city">
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Banglore</option>
+            <option>Delhi</option>
+        </datalist><br>
+
+
+
+        <label for="salary">Salary</label>
+        <select name="salary" id="salary">
+            <option value="2.5-3L">2.5L-3L</option>
+            <option value="">3L-5L</option>
+            <option value="">5L-7L</option> 
+            <option value="">7L-10L</option> 
+           <option value="">10+L</option>
+        </select><br>
+
+           <label for="">Upload your profile-picture</label>
+           <input accept="jpg,hepg,png,webp" type="file"><br>
+           <label for="">Upload your Resume</label>
+           <input accept="pdf" type="file>"
+           <button type="submit"class="registerbtn">Register</button>
+
+
+
+        </datalist>
+    </form>
+</fieldset>
+<a style="color:aqua;" href="http://www.codekul.com" target="_self">Click here</a>
+</body>
+</html>
